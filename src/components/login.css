@@ -1,0 +1,121 @@
+.login {
+    padding: 20px;
+    display: grid;
+    place-content: center;
+    background-color: white;
+    min-height: 100vh;
+    color: rgb(54, 54, 54);
+    padding-bottom: 120px;
+}
+
+h5 i{
+    cursor: pointer;
+}
+
+.login .form {
+    background-color: white;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 700px !important;
+    border-radius: 10px;
+    border: 1px solid rgb(235, 234, 234);
+}
+
+.login .inputs {
+    border: 1px solid rgb(180, 179, 179);
+}
+
+.login .inputpassword{
+    border: 1px solid rgb(180, 179, 179);
+    display: flex;
+    flex-direction: row;
+    
+    padding-right: 20px;
+}
+
+.inputpassword .checkpassword{
+    
+    width: 600px;
+}
+
+.tooglebtn{
+    justify-content: flex-end;
+}
+
+.tooglebtn  .MuiSvgIcon-root{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.login .form-control {
+    min-width: 89% !important;
+    max-width: 90%;
+    border-radius: 0px;
+    border: none;
+}
+
+.form-control:focus{
+    
+    border: none;
+    box-shadow: none;
+}
+
+.error{
+    color: red;
+}
+
+.loginBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginBtn p {
+    cursor: pointer;
+}
+
+@media only screen and (max-width:900px){
+    .form {
+        min-width: 600px !important;
+        
+    }
+
+    .form h5{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .login{
+        max-width: 100%;
+    }
+    .login .form {
+    
+        min-width: 300px !important;
+        
+    }
+    .inputpassword .checkpassword{
+    
+        width: 200px;
+    }
+ 
+    .form h5{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .login .form {
+    
+        min-width: 250px !important;
+        
+    }
+    .inputpassword .checkpassword{
+    
+        width: 150px;
+    }
+
+    .form h5{
+        font-size: 14px;
+    }
+}

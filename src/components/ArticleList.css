@@ -1,0 +1,48 @@
+
+  .article{
+    cursor: pointer;
+  }
+
+  .article h3{
+    font-size: 20px;
+  }
+
+  .article h3 span{
+    font-size: 14px;
+    color: gray;
+  }
+
+  .title__date{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title__date p{
+    font-size: 10px;
+    padding-right: 50px;
+  }
+
+ 
+
+  
+@media only screen and (max-width:760px){
+  
+  .article h3{
+    font-size: 17px;
+  }
+
+  .article p{
+    font-size: 12px;
+  }
+
+  .article h3 span{
+    font-size: 12px;
+    
+  }
+  
+  .title__date p{
+    font-size: 10px;
+    padding-right: 10px;
+  }
+}
+
